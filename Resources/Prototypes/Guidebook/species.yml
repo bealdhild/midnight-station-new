@@ -35,7 +35,6 @@
     - Vox
     - Vulpkanin
     - Rodentia
-    - Yowie
     - IPC
     - Resomi
     - Oni
@@ -101,11 +100,6 @@
   id: Vulpkanin
   name: species-name-vulpkanin
   text: "/ServerInfo/Guidebook/Mobs/Vulpkanin.xml"
-
-- type: guideEntry
-  id: Yowie
-  name: species-name-yowie
-  text: "/ServerInfo/Guidebook/Mobs/Yowie.xml"
 
 - type: guideEntry
   id: IPC

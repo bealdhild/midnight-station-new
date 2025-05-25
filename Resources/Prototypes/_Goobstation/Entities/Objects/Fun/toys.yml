@@ -525,17 +525,7 @@
     soundNoDamage:
       path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
 
-## Self-Insert Squad
-
-- type: entity
-  parent: BasePlushie
-  id: PlushieBenny
-  name: yowie plushie
-  description: A cute stuffed toy that resembles a yowie. Smells like meth and unethical surgery.
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Objects/Fun/selfinsert.rsi
-    state: plushie_benny
+## Self-Insert Squid
 
 - type: entity
   parent: PlushieLizard

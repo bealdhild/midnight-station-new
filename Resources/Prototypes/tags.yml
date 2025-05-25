@@ -1403,7 +1403,7 @@
   id: Soap
 
 - type: Tag
-  id: Softsuit # Used for Yowies outerslot whitelist
+  id: Softsuit
 
 - type: Tag
   id: SolarTrackerElectronics

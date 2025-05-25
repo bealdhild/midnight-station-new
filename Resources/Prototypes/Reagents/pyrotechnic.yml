@@ -54,18 +54,11 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Heat: 2
             Poison: 1
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
         damage:
           types:
             Heat: 2
@@ -91,19 +84,12 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Heat: 2
             Poison: 1
             Caustic: 0.5 # based off napalm being an irritant
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
         damage:
           types:
             Heat: 2
@@ -123,18 +109,11 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Heat: 3
             Poison: 1
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
         damage:
           types:
             Heat: 3
@@ -165,19 +144,12 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Heat: 2
             Poison: 1
             Caustic: 0.5 # CLF3 is corrosive
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
         damage:
           types:
             Heat: 2
@@ -232,10 +204,6 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 1

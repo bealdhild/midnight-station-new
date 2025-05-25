@@ -117,14 +117,6 @@
     possibleSpawns:
     - MobTajaranRandom
 
-- type: entity
-  parent: MonkeyCube
-  id: YowieCube
-  name: yowie cube
-  components:
-  - type: Rehydratable
-    possibleSpawns:
-    - MobYowieRandom
 
 - type: entity
   parent: MonkeyCube

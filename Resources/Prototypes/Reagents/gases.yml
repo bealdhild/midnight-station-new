@@ -49,10 +49,6 @@
           type: Human
       - !type:Oxygenate
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-      - !type:Oxygenate
-        conditions:
         - !type:OrganType
           type: Animal
       - !type:Oxygenate
@@ -109,10 +105,6 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 3
@@ -122,10 +114,6 @@
     Gas:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -208,9 +196,6 @@
           shouldHave: false
         - !type:OrganType
           type: Vox
-          shouldHave: false
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
           shouldHave: false
         # Don't want people to get toxin damage from the gas they just
         # exhaled, right?
@@ -328,9 +313,6 @@
         sprintSpeedModifier: 0.65
       - !type:GenericStatusEffect
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: NitrousOxide
           min: 1
@@ -346,9 +328,6 @@
         type: Add
       - !type:HealthChange
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: NitrousOxide
           min: 3.5
@@ -373,9 +352,6 @@
     Gas:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
         damage:
           groups:
             Brute: -1
@@ -386,9 +362,6 @@
             Radiation: -0.5
       - !type:HealthChange
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: Frezon
           min: 0.5
