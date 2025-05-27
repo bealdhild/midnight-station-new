@@ -93,7 +93,7 @@
   equipment:
     shoes: ClothingShoesBootsLaceup
     id: LawyerPDA
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetLaw
   inhand:
     - BriefcaseBrownFilled
   storage:
