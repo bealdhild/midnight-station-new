@@ -17,7 +17,6 @@
   - Monkey
   - Kobold
   - Abductor
-  - Yowie
   - IPC
   - Diona
   - Harpy
@@ -25,7 +24,6 @@
   - Tajaran # Specism.
   - Resomi # Sprites look shit on them.
   - Oni # Same as above, plus it fucks over ERTs.
-  - Gingerbread # Soecusn
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false

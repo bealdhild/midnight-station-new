@@ -309,9 +309,6 @@
       effects:
       - !type:HealthChange
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:OrganType
           type: Slime
           shouldHave: false

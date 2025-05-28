@@ -268,10 +268,6 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 1
@@ -401,10 +397,6 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 1

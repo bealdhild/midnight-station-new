@@ -238,9 +238,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         amount: 5 # effectively 3 "sleeps" per 20OD, but only 1 on 10 (like with 2 syringes)
         immediate: false
       - !type:MovespeedModifier # kinda sleepiness
@@ -249,9 +246,6 @@
           min: 80
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         walkSpeedModifier: 0.8
         sprintSpeedModifier: 0.8
       - !type:GenericStatusEffect
@@ -268,9 +262,6 @@
           min: 100
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         key: ForcedSleep
         component: ForcedSleeping
         refresh: false
@@ -282,9 +273,6 @@
           min: 100
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         amount: -100 # power nap
         immediate: true
       - !type:AdjustReagent
@@ -307,9 +295,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 10
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         probability: 0.15
 
 - type: reagent
@@ -353,24 +338,13 @@
           types:
             Asphyxiation: -6 # intended to be stronger, but more annoying than inapr
       - !type:TakeStaminaDamage
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         amount: 3 # full syringe doesn't stamcrit (maybe it should?)
         immediate: false
       - !type:MovespeedModifier
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         walkSpeedModifier: 0.75
         sprintSpeedModifier: 0.75
       - !type:Paralyze # more severe effect when overdosing, doesn't matter since you want to use it on crit ppl
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 15
         probability: 0.2
@@ -449,17 +423,10 @@
         damage:
           groups:
             Brute: 0.1
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Blunt: 5
@@ -531,17 +498,10 @@
         damage:
           groups:
             Brute: 0.1
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
           min: 10
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Blunt: 5
@@ -621,17 +581,10 @@
         damage:
           types:
             Radiation: 0.05 # very slight side effect
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Radiation: 5
@@ -683,10 +636,6 @@
         damage:
           groups:
             Brute: 0.5
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: Monover
@@ -720,9 +669,6 @@
         conditions:
         - !type:UniqueBloodstreamChemThreshold
           min: 1 # potential use for checking bloodstream cleanliness?
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: Calomel
@@ -759,9 +705,6 @@
         conditions:
         - !type:MobStateCondition
           mobstate: Alive
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         damage:
           types:
@@ -769,9 +712,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 15
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:AdjustReagent
         reagent: Calomel
         amount: -2
@@ -808,9 +748,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 10
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         damage:
           types:
@@ -833,9 +770,6 @@
           damage:
             groups:
               Burn: 30
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         damage:
           types:
@@ -845,9 +779,6 @@
           damage:
             groups:
               Burn: 60
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         damage:
           types:
@@ -857,9 +788,6 @@
           damage:
             groups:
               Brute: 30
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         damage:
           types:
@@ -869,9 +797,6 @@
           damage:
             groups:
               Brute: 60
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 # Low-effect meds
 
@@ -950,9 +875,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 20
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:AdjustConsciousness
         conditions:
         - !type:ReagentThreshold
@@ -1010,10 +932,6 @@
         damage:
           types:
             Poison: 2
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: StypticCrystalCatalyst
@@ -1079,10 +997,6 @@
         damage:
           types:
             Poison: 2
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: Synthflesh # synthflesh is somewhat mid in SS14 due to topicals, so it's mostly a reference here
@@ -1188,9 +1102,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 25
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: Oxandrolone
@@ -1239,9 +1150,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 25
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: PentenicAcid
@@ -1304,10 +1212,6 @@
           min: 0
           max: 35
       - !type:MovespeedModifier # and basically every visual/combat side effect that can be reasonably put
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         walkSpeedModifier: 0.75
         sprintSpeedModifier: 0.75
       - !type:GenericStatusEffect
@@ -1316,9 +1220,6 @@
       - !type:Jitter
       - !type:Paralyze
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 35
         probability: 0.1
@@ -1332,9 +1233,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 35
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:ModifyBloodLevel
         amount: 5
       - !type:ModifyBleedAmount

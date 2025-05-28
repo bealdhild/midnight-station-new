@@ -30,9 +30,6 @@
       metabolismRate: 0.05
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType
-          type: Yowie
         damage:
           groups:
             Brute: -1
@@ -42,18 +39,11 @@
             Cold: -0.5
             Radiation: -0.5
       - !type:HealthChange
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 0.25
       - !type:HealthChange # When overdosing
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 5
         damage:
@@ -62,9 +52,6 @@
             Asphyxiation: 0.75 # more damage, but easier to treat, will rapidly kill in crit probably?
       - !type:HealthChange # More overdose damage
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 5
         probability: 0.05
@@ -88,10 +75,6 @@
         messages: ["fentanyl-effect-skinworms","fentanyl-effect-breathingrazors","fentanyl-effect-lungstight","fentanyl-effect-observed"]
         probability: 0.05
       - !type:MovespeedModifier # you didn't think this would improve your abilities right?
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         walkSpeedModifier: 0.8
         sprintSpeedModifier: 0.8
       - !type:GenericStatusEffect
@@ -99,17 +82,10 @@
         component: StutteringAccent
       - !type:Jitter
       - !type:Paralyze # loss of muscle control
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         probability: 0.05
         paralyzeTime: 2
       - !type:Paralyze # more severe effects when you are overdosing
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 5
         probability: 0.05
@@ -145,10 +121,6 @@
     Narcotic:
       effects:
       - !type:GenericStatusEffect
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         key: TemporaryBlindness
         component: TemporaryBlindness
         type: Add
@@ -175,10 +147,6 @@
         key: Stutter
         component: StutteringAccent
       - !type:TakeStaminaDamage
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         amount: 7
         immediate: false
       - !type:PopupMessage
@@ -205,9 +173,6 @@
         time: 4
       - !type:MovespeedModifier # You can't quite remember how to walk properly.
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: Amnestizine
           min: 4
@@ -215,9 +180,6 @@
         sprintSpeedModifier: 0.4
       - !type:GenericStatusEffect
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 10
         key: TemporaryBlindness
@@ -235,9 +197,6 @@
             Poison: 0.25
             Asphyxiation: 0.25
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 15
       - !type:HealthChange
@@ -246,18 +205,12 @@
             Cellular: 1
             Asphyxiation: 1
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 30
       - !type:FlammableReaction
         multiplier: 0.3
       - !type:Paralyze
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         probability: 0.05
         paralyzeTime: 2
   reactiveEffects:
@@ -282,9 +235,6 @@
       metabolismRate: 1
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType
-          type: Yowie
         damage:
           groups:
             Brute: -1
@@ -329,15 +279,8 @@
         damage:
           types:
             Asphyxiation: 0.5
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:HealthChange
         conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           min: 50
         damage:
@@ -347,8 +290,6 @@
         emote: Gasp
         probability: 0.1
         conditions:
-        - !type:OrganType
-          type: Yowie
 
 - type: reagent
   id: MouseBites

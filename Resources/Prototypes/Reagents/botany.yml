@@ -254,9 +254,6 @@
       effects:
       - !type:HealthChange
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:OrganType
           type: Rat
           shouldHave: false
@@ -270,9 +267,6 @@
       - !type:ChemVomit
         probability: 0.12
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:OrganType
           type: Rat
           shouldHave: false

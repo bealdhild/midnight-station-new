@@ -392,8 +392,6 @@
         - ReagentId: TableSalt
           Quantity: 5
 
-## Self-Insert Squad
-
 - type: entity
   parent: PlushieLizard
   id: PlushieCairo

@@ -45,18 +45,6 @@
     Piercing: 5
 
 - type: damageModifierSet
-  id: Yowie
-  coefficients:
-    Blunt: 0.75
-    Slash: 0.75
-    Piercing: 0.75
-    Cold: 0.9
-    Bloodloss: 0.9
-    Poison: 0.0 # Yea, heroin is heaps good for ya
-    Radiation : 0.7 # Engie yowies need some help against anti-rads
-  ignoreArmorPierceFlags: All # Goobstation
-
-- type: damageModifierSet
   id: Tajaran
   coefficients: # Literally the same as felinids, but heat and cold cuz fur
     Blunt: 1.15

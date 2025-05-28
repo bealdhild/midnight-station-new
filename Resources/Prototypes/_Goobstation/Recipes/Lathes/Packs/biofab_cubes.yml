@@ -10,7 +10,6 @@
   recipes:
   - HumanCube
   - DionaCube
-  - GingerbreadCube
   - MothCube
   - DwarfCube
   - HarpyCube
@@ -20,7 +19,6 @@
   - SlimePersonCube
   - TajaranCube
   - VoxCube
-  - YowieCube
   - ShadowkinCube
 
 - type: latheRecipePack
