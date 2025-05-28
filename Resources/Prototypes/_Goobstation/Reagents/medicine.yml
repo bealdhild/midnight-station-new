@@ -1416,9 +1416,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 15.5
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:AdjustConsciousness
         allowNewModifiers: true
         modifierType: Pain
@@ -1452,9 +1449,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 10.5
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:AdjustConsciousness
         allowNewModifiers: true
         modifierType: Pain
