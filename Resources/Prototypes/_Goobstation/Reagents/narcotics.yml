@@ -395,9 +395,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 10.5
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:GenericStatusEffect # tripping balls
         conditions:
         - !type:ReagentThreshold
