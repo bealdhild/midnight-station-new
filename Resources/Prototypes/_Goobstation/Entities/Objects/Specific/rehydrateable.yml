@@ -38,15 +38,6 @@
 
 - type: entity
   parent: MonkeyCube
-  id: GingerbreadCube
-  name: gingerbread cube
-  components:
-  - type: Rehydratable
-    possibleSpawns:
-    - MobGingerbreadRandom
-
-- type: entity
-  parent: MonkeyCube
   id: MothCube
   name: moth person cube
   components:
