@@ -37,7 +37,6 @@
   table: !type:GroupSelector
     children:
     - id: FishAlien
-    - id: FishBingle
     - id: FishBoyFisher
     - id: FishNukeDisk
     - id: FishGib

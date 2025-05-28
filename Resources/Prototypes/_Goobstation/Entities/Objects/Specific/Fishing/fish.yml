@@ -43,7 +43,7 @@
   id: FishAngler
   parent: BaseFish
   name: angler fish
-  description: Scariest thing in existence, after bingles.
+  description: Scariest thing in existence.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
@@ -60,18 +60,6 @@
   - type: Sprite
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
     state: bass
-  - type: Item
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
-
-- type: entity
-  id: FishBingle
-  parent: BaseFishRare
-  name: bingle fish
-  description: bingle
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
-    state: bingle
   - type: Item
     sprite: _Goobstation/Objects/Specific/Fishing/fish.rsi
 
