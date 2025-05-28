@@ -175,17 +175,11 @@
     - !type:GroupSelector
       children:
       - id: PlushieBlackburn
-        weight: 0.35
-      - id: PlushieBlackburnKobliska
-        weight: 0.25
-      - id: PlushieBlackburnMatryoskya
-        weight: 0.25
+        weight: 0.85
       - id: PlushieDesislavaBlackburn
         weight: 0.15
     - !type:GroupSelector # Self insert crew :-)
       children:
-      - id: PlushieBenny
-        weight: 0.65
       - id: PlushieCairo
         weight: 0.65
       - id: PlushiePash
@@ -201,8 +195,6 @@
       - id: PlushieZlorb
         weight: 0.65
       - id: PlushieTiderMoth
-        weight: 0.65
-      - id: PlushieCommandHuman
         weight: 0.65
       - id: PlushieRanork
         weight: 0.65
@@ -238,6 +230,10 @@
         weight: 0.65
       - id: PlushieChewsTheShoes
         weight: 0.65
+      - id: PlushieSalv
+        weight: 0.65
+      - id: PlushieCuptain
+        weight: 0.05
 
 
 - type: entity
@@ -604,7 +600,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: PlushieBenny
       - id: PlushieCairo
       - id: PlushiePash
       - id: PlushieDelta
@@ -613,7 +608,6 @@
       - id: PlushieKnott
       - id: PlushieZlorb
       - id: PlushieTiderMoth
-      - id: PlushieCommandHuman
       - id: PlushieRanork
       - id: PlushieWehWinter
       - id: PlushieHaleigh
@@ -631,3 +625,5 @@
       - id: PlushieHaato
       - id: PlushieTinyLane
       - id: PlushieChewsTheShoes
+      - id: PlushieSalv
+
