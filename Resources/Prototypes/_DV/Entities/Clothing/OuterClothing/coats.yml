@@ -1,0 +1,25 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCybersunOvercoat
+  name: cybersun overcoat
+  description: Heavy black robes with magenta and gold trim. It smells old.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/OuterClothing/Coats/cybersunovercoat.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/OuterClothing/Coats/cybersunovercoat.rsi
+  - type: TemperatureProtection
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
+  - type: Armor
+    coverage:
+    - Chest
+    - Groin
+    - Tail
+    - Arm
+    - Leg
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.90

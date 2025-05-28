@@ -8,13 +8,7 @@
     },
     "states": [
         {
-            "name": "plushie_benny"
-        },
-        {
             "name": "plushie_cairo"
-        },
-        {
-            "name": "plushie_command_human"
         },
         {
             "name": "plushie_delta"
