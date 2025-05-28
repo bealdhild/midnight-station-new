@@ -22,7 +22,7 @@ SPDX-FileCopyrightText: 2025 Midna <Midna@Midnight.Miami>
 
 SPDX-License-Identifier: AGPL-3.0-or-later
 -->
-
+<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://github.com/Midna-Midnight-Miami/midna-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
 This is a fork of Goob Station, which is a fork of Space Station 14, based around higher RP standards while including much of Goob Stations Content. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server this is the content pack for Midnight Station.
 
