@@ -45,16 +45,6 @@
     rules: ghost-role-information-silicon-rules
 
 - type: entity
-  id: SpawnPointGhostBinglePrimeToken
-  parent: SpawnPointGhostBinglePrime
-  suffix: Prime
-  components:
-  - type: GhostRole
-    name: ghost-role-information-bingle-name-token
-    description: ghost-role-information-description-token-generic
-    rules: ghost-role-information-freeagent-rules
-
-- type: entity
   id: SpawnPointGhostBlobRatToken
   name: Mouse Blob Spawn Point
   suffix: Blob Ghostrole, Token

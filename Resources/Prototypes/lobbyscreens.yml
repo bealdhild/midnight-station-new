@@ -243,12 +243,6 @@
   artist: Cattom
 
 - type: lobbyBackground
-  id: moneyspread-bingle
-  background: /Textures/LobbyScreens/binglemoneyspread.webp
-  name: Bingle Flex
-  artist: LFMoth
-
-- type: lobbyBackground
   id: stargoob
   background: /Textures/LobbyScreens/StarGoob.webp
   name: GoobWars
