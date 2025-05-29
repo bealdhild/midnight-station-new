@@ -1,7 +1,7 @@
 possession-fail-changeling = There's no soul to tamper with!
 possession-fail-heretic = The power of the mansus prevents you from possessing them!
 possession-fail-ghoul = There's no mind for you to possess!
-possession-fail-devil = You cannot possess another devil!
+possession-fail-devil = You cannot possess another space devil, the infernal courts would have your head!
 possession-fail-ghost = There's no mind for you to possess!
 possession-fail-temporary = There's no mind for you to possess!
 possession-fail-target-dead = There's no mind for you to possess!

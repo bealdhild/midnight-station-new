@@ -19,7 +19,6 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   The following are shielded:
   - Current game mode and possible antags during the current game mode.
-  - Events from previous rounds.
   - Events you experienced as a different character.
   - All information related to the player of a character rather than the character itself. (See "Metafriending and Metagrudging" below.)
   - All information gained while dead or a ghost.
@@ -30,8 +29,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   ## Nuclear Operatives
 
-  Nukies are considered propaganda by Nanotrasen, and crew isn't informed on them at all.
-  Posters seen on-station are ignored and called syndicate propaganda.
+  Nuclear Operatives are known to exist in other sectors with active warfare, but the idea that the station you are currently on could be the target of a nuclear operative attack is nothing more than background paranoia that no sane individual would act on.
 
   The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station is not shielded.
 
@@ -41,9 +39,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - a War Ops announcement
   - being a nuclear operative
 
+  ## Zombies
+  
+  Zombies are known about, but infections are so rare that no sensible person would prepare for one unprompted
+
+  Situations that would prompt preperation are:
+  - Witnessing a zombie, alive or dead
+  - Finding a necrotic chemical
+  - Finding a Syndicate zombie bundle
+  - finding a syringe of romerol	
+
   ## Changelings
 
-  In the eyes of the public, changelings are an exterminated predatory lifeform and their potential existence on the station is shielded.
+  In the eyes of the public, changelings are an experemental genetically engineered "Super Spy" that seems more like a silly hoax than an actual project. The project is attributed to either Nanotrasen or The Syndicate depending on whoever tells it. Their potential existence on the station is shielded.
   This metashield prohibits players from crew bloodtesting until the metashield is revealed.
 
   Knowledge about the abilities of changelings is not shielded.
@@ -58,7 +66,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   ## Heretics
 
   To normal people, heretics are generally unknown. Security and Command may be aware that a group of people following a rogue god exists, but it's an absurd reality.
-  This metashield prohibits normal players from knowing what runes or reality fractures are. Security may be suspicious of them.
+  This metashield prohibits normal players from knowing what runes or reality fractures are. Security and Command may be suspicious of them.
 
   Knowledge about the ability of heretics is not shielded.
 
@@ -67,44 +75,25 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - witnessing a crewmember harvesting a reality fracture
   - witnessing a crewmember using their powers
 
-  ## Devils
+  ## Space Devils
 
-  To most ordinary people, a Devil is a fake fairy tale made to scare people from talking to strangers.
-  This metashield prohibits players from knowing that a player is a devil from their equipment alone, although they may distrust them as much as they wish.
+  To most ordinary people, a Space Devil is a fake fairy tale made to scare people from talking to strangers.
+  This metashield prohibits players from knowing that a player is a Space Devil from their equipment alone, although they may distrust them as much as they wish.
 
   Knowledge about the abilities and consequences of a Devil deal are not shielded.
 
   The revealing condition for this shield is any of the following:
-  - You are a Devil.
+  - You are a Space Devil.
   - You are the Chaplain, a lawyer, or a member of Central Command. (Including BSO and NTR)
-  - You have made a deal with the Devil.
-  - You have witnessed someone make a deal.
-
-  ## Zombies
-
-  Zombies are known galaxy-wide, but not as real-life, instead, as fiction.
-  Nuclear Operatives and Syndicate Agents are aware of Romerol and what it can do, but are prohibited of speaking about it publicly - unless they want their families to die.
-
-  Revealing conditions to the "Zombie" Shield:
-  - You are a Nuclear Operative
-  - You are a Syndicate Agent
-  - You are a Zombie
-  - You have seen Zombies on the station
-
-  ## Infections
-
-  Zombies are known as extinct, they previously ravaged humanity hundreds of years ago in medieval times.
-  A cure was made, and is still held onto by chemists and Chief Medical Officers as a show of how long your family has been in the field.
-
-  Revealing conditions to the "Infections" Shield:
-  - You are a Chemist
-  - You are a Chief Medical Officer
-  - Zombies are announced to be real and station-wide
+  - You have made a deal with the Space Devil.
+  - You have witnessed someone make a deal with the Space Devil.
+  - You are offered a deal with a Space Devil.
+  - You witness someone get dragged to Space Hell.
 
   ## Deathsquad
 
-  Deathsquad is known to exist - per the posters on the station, but they are not known as a crew killsquad, instead known as an elite team sent into stations to handle extreme threats even the best of ERT Security leaders could handle.
-  The station's Nanotrasen Representative and Blueshield Officer are aware that Deathsquad is a crew killsquad, but are heavily prohibited to mention it, and will be dealt with after, or during, the shift.
+  Deathsquads are known to exist - per the posters on the station, but they are not known as a crew killsquad, instead known as an elite team sent into stations to handle extreme threats even elite security ERT's would struggle with.
+  The station's Nanotrasen Representative and Blueshield Officer are aware that a Deathsquad is a crew killsquad, but are heavily prohibited to mention it, and will be dealt with after, or during, the shift.
 
   In private conversations, faxes, or phone calls, both BSO & NTR are advised to use the term 'Janitor Squad' to refer to the Deathsquad.
   Crew can also choose to roleplay as if they've seen deathsquad movies, knowing limited aspects of their gear one would reasonably know watching an action-movie.
@@ -118,7 +107,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   ## Implanted implants
 
-  Implanted, implants are shielded.
+  Implanted implants, other than Mindshields for command and security, are metashielded.
 
   Implanters themselves and un-implanted implants are not shielded. This prohibits implant checking.
 

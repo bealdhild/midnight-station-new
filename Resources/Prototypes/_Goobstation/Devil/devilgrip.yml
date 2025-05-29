@@ -1,7 +1,7 @@
 - type: entity
   id: DevilGrip
-  name: devils grip
-  description: What little fraction of your power remains in this realm, channeled into your hands.
+  name: Space Devil's Grip
+  description: What little fraction of your power remains in this realm, channeled into your hands. Hot enough to make even you feel a little toasty.
   categories: [ HideSpawnMenu ]
   components:
   - type: Unremoveable
@@ -36,7 +36,7 @@
   - type: BoneSetter
     speed: 0.75
   - type: Cautery
-    speed: 0.75
+    speed: 5
   - type: BoneGel
     speed: 0.75
   - type: Tending

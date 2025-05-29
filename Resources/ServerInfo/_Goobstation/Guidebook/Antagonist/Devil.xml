@@ -1,9 +1,9 @@
 <Document>
-  # Devil
+  # Space Devil
 
   [color=#ac3a0d]A devilish trickster with a silver tongue making deals around the station.[/color]
 
-  A devil is an entity originating from some ungodly dimension far, far away from our own.
+  A Space Devil is an entity originating from some ungodly dimension far, far away from our own.
   <Box>
     <GuideEntityEmbed Entity="PaperDevilContract" Caption="Contract"/>
     <GuideEntityEmbed Entity="ClothingUniformJumpsuitDevil" Caption="Devilish Attire"/>
@@ -12,10 +12,10 @@
   Unlike most depictions in media, a devil isn't easy to find at a glance. There's no fire and brimstone, no pitchfork and screaming. The easiest way to tell is that red glow in their eyes, and sometimes the horns or tail.
   [bold] Not everyone with a tail or horns is a devil, that's just specist! [/bold]
 
-  Despite their usually not-so-good intentions, a Devil is still considered crew!
-  As a Devil, [color=red][bold] you should not interfere with station affairs unless you are directly asked, or you can make a deal out of it. [/bold][/color]
+  Despite their usually not-so-good intentions, a Space Devil is still considered crew!
+  As a Space Devil, [color=red][bold] you should not interfere with station affairs unless you are directly asked, or you can make a deal out of it. [/bold][/color]
 
-  Under normal circumstances, [color=red][bold] a crew member making a deal with the Devil should be considered a crime [/bold][/color]
+  Under normal circumstances, [color=red][bold] a crew member making a deal with the Space Devil should be considered a crime, as unauthorized practice of magic. [/bold][/color]
 
   ## Contracts
 
@@ -24,7 +24,7 @@
   Contracts are indestructible once signed, there's no going back once pen touches parchment.
 
   The particular effect of a contract changes depending on which [bold] clauses [/bold] are written on it.
-  Effects can be applied to the Contractor, the Devil, or the Contractee, the signer.
+  Effects can be applied to the Contractor, the Space Devil, or the Contractee, the signer.
 
   Prefixing a [bold]Clause[/bold] with either "Contractee:" or "Contractor:" will dictate who it applies to.
 
@@ -51,10 +51,10 @@
   ## Selling your soul?
 
   Selling your soul is a fickle thing; and usually what most devils are after.
-  As a devil, your main objective is to collect as many souls as possible. The more souls you gain, the more powerful you become.
+  As a space devil, your main objective is to collect as many souls as possible. The more souls you gain, the more powerful you become.
 
   As a contractee, selling your soul has consequences.
-  - Without a soul, you will go [bold][color=red]STRAIGHT[/color][/bold] to hell on death. No more second chances.
+  - Without a soul, you will go [bold][color=red]STRAIGHT[/color][/bold] to [bold][color=blue]SUPER SPACE HELL[/color][/bold] on death. No more second chances.
   - You cannot make any more deals after selling your soul.
   - You will be marked as "Condemned", which could have other consequences.
 
@@ -62,7 +62,7 @@
 
   ## No such thing as no second chances.
 
-  A devil can increase their overall power level by collecting enough souls during the duration of their stay on station.
+  A space devil can increase their overall power level by collecting enough souls during the duration of their stay on station.
   Upon reaching the first level, they unlock the ability to create revival contracts.
 
   These contracts can be used on a corpse to offer that ghost a second chance at life.
@@ -70,7 +70,7 @@
 
   ## Possession?
 
-  A devil unlocks the ability to possess targets at the second level.
+  A space devil unlocks the ability to possess targets at the second level.
   Possession allows them to temporarily take over a targets body and do practically whatever they want.
 
   However, there are a few things they [italic] cannot [/italic] do:
@@ -89,38 +89,40 @@
 
   ## Dealing with the devil.
 
-  Sometimes, in pursuit of finishing their end of a deal, a devil can become quite troublesome for the stations inhabitants.
+  Sometimes, in pursuit of finishing their end of a deal, a space devil can become quite troublesome for the stations inhabitants.
   Whether this be through it stealing items, or offering ungodly power to the stations enemies; it's clear to see why someone might want to get rid of one.
 
-  Luckily for them, there's several ways to deal with a devil.
+  Luckily for them, there's several ways to deal with a space devil.
   - Pronouncing the true name of a devil will stun them.
   - A bible or holy water will burn a devil to the touch.
-  - Chaplains can utilize bibles to banish a devil.
+  - Chaplains can utilize station issued holy texts to banish a space devil.
 
-  As one would guess, a chaplain is more effective at facing a devil than most.
+  As one would guess, a station chaplain is more effective at facing a space devil than most.
   Chaplains cannot be tricked to give up their soul, as they already pledged it to whatever God(s) they believe in.
 
-  When a chaplain uses a bible on critical or otherwise incapacitated devil, they can temporarily banish them.
-  For the next couple of minutes or so, that devil will be unable to sustain a material form.
+  When a chaplain uses station issued holy texts on critical or otherwise incapacitated space devil, they can temporarily banish them.
+  For the next couple of minutes or so, that specific space devil will be unable to sustain a material form.
 
-  [bold]When a chaplain speaks a devils true name, it will harm them [color=red]significantly![/bold][/color]
+  [bold]When a station chaplain speaks a space devils true name, it will harm them [color=red]significantly![/bold][/color]
 
   ## True or fake name?
 
-  When a devil arrives at a station they take the form of a random crew member.
+  When a space devil arrives at a station they take the form of a random crew member.
   Whether they are possessed, shape-shifted, or perhaps just a coincidental twin, they'll replace someone on station.
 
-  What's important is that devil's [bold]cannot replace command staff or security members. [/bold]
+  What's important is that space devil's [bold]cannot replace command staff or security members. [/bold]
 
   In all manners but one, a devil will appear with their false name.
-  The only way to view a devils true name is to read a contract they have signed, or ask them directly.
+  The only way to view a space devils true name is to read a contract they have signed, or ask them directly.
 
   ## Trickery goes both ways!
 
   The contractee is not the only person that can be tricked.
   Contract weight is applied [bold] no matter who the effect applies to [/bold]
 
-  This means if you can trick a devil to sign a paper negatively affecting them, you can get some positive clauses for free!
+  This means if you can trick a space devil to sign a paper negatively affecting them, you can get some positive clauses for free!
+
+  Posessing souls when you are not a space devil is only useful to flex.
 
   [textlink="Learn more about each clause." link="DevilClauses"]
 </Document>

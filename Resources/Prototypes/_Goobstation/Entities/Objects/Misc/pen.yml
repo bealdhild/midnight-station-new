@@ -21,7 +21,7 @@
   name: devilish pen
   parent: [BaseAdvancedPen, BaseMagicContraband]
   id: PenDevil
-  description: A devilishly sharp pen with a strangely warm body. Not quite as sharp as a devils tongue, nor as silver coated.
+  description: A devilishly sharp pen with a strangely warm body. Not quite as sharp as a Space Devil's tongue, nor as silver coated.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/bureaucracy.rsi

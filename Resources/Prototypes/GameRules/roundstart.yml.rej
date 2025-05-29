@@ -1,0 +1,10 @@
+diff a/Resources/Prototypes/GameRules/roundstart.yml b/Resources/Prototypes/GameRules/roundstart.yml	(rejected hunks)
+@@ -213,7 +213,7 @@
+         text: head-rev-role-greeting
+         color: CornflowerBlue
+         sound: "/Audio/Ambience/Antag/headrev_start.ogg"
+-      startingGear: HeadRevGear
++      #startingGear: HeadRevGear -- Funky Station: HRev uplink
+       components:
+       - type: Revolutionary
+       - type: HeadRevolutionary

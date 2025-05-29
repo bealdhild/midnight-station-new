@@ -1,5 +1,5 @@
-devil-roundend-name = Devil
-objective-issuer-devil = Devil
+devil-roundend-name = Space Devil
+objective-issuer-devil = Space Hell
 
 roundend-prepend-devil-contracts = Someone has made [color=red]{$number}[/color] successful contracts.
 roundend-prepend-devil-contracts-named = [color=white]{$name}[/color] has made [color=red]{$number}[/color] successful contracts.
@@ -7,8 +7,8 @@ roundend-prepend-devil-contracts-named = [color=white]{$name}[/color] has made [
 devil-component-examined = [color=darkred]{CAPITALIZE(POSS-ADJ($target))} eyes glow a faint red.[/color]
 condemned-component-examined = [color=chartreuse]{CAPITALIZE($target)}'s eyes are hollow and soulless.[/color]
 
-devil-role-greeting = You are a devil from the depths of hell,
-  who has possessed the body of {$playerName}
+devil-role-greeting = You are a space devil from the depths of space hell,
+  who has taken the identity of {$playerName}
   Corrupt mortals and collect souls through the use of contracts.
   It is not in your interest to do tasks unrelated to your deals, they are beneath you.
   Your true name is {$trueName} - Try to keep it a secret, will you?
@@ -30,10 +30,10 @@ handshake-offer-popup-self = You outstretch your hand to {$target}, a sly grin o
 
 weaktoholy-component-bible-sizzle = {$target}'s skin is singed with the {$item}!
 devil-banish-begin = {$user} begins to perform an exorcism on {$target}!
-devil-exorcised = The ground cracks and splinters beneath {$target} as they are forcefully returned to hell!
+devil-exorcised = The ground cracks and splinters beneath {$target} as they are forcefully returned to space hell!
 
 invalid-possession-target = You cannot possess this target!
 
-devil-power-level-increase-weak = Bits of flame flare out from your fingertips. Your connection with hell has strengthened.
-devil-power-level-increase-moderate = You feel your power surge. Your connection with hell has strengthened.
+devil-power-level-increase-weak = Bits of flame flare out from your fingertips. Your connection with space hell has strengthened.
+devil-power-level-increase-moderate = You feel your power surge. Your connection with space hell has strengthened.
 devil-power-level-increase-powerful = You've almost completed your tasks here. Just a few more souls.
