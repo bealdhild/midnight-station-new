@@ -33,6 +33,7 @@
 job-name-warden = Warden
 job-name-security = Security Officer
 job-name-cadet = Security Cadet
+job-name-cuptain = Cuptain
 job-name-hos = Head of Security
 job-name-detective = Detective
 job-name-brigmedic = Brigmedic
@@ -115,6 +116,7 @@ JobChemist = Chemist
 JobChiefEngineer = Chief Engineer
 JobChiefMedicalOfficer = Chief Medical Officer
 JobClown = Clown
+JobCuptain = Cuptain
 JobDetective = Detective
 JobBrigmedic = Brigmedic
 JobERTChaplain = ERT Chaplain

@@ -38,6 +38,7 @@ job-description-boxer = Fight your way to the top! Challenge the head of personn
 job-description-brigmedic = Fight in the rear of the security service, for the lives of your comrades! You are the first and last hope of your squad. Hippocrates bless you.
 job-description-cadet = Learn the basics of arresting criminals and managing the brig. Listen to your supervisors and feel free to ask them for any help.
 job-description-captain = Keep the station running, delegate work to the other heads of staff, and exert your will.
+job-description-cuptain = Keep the station running, delegate work to the other heads of staff, and exert your will. At least, that's what you want people to think your job is. 
 job-description-cargotech = Deal with requisitions and deliveries, pilot the cargo shuttle to the trade station and back, and work with others to make ludicrous amounts of cash and then waste it all gambling.
 job-description-ce = Manage the engineering department to ensure power, atmospherics, and the hull are in perfect shape.
 job-description-centcomoff = Act as an ambassador to the newest state-of-the-art space station in Nanotrasen's fleet.

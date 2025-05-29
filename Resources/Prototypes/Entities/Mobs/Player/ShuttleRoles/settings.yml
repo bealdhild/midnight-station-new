@@ -876,3 +876,14 @@
     - type: Loadout
       prototypes: [ CossackGear ]
       roleLoadout: [ RoleSurvivalEVA ]
+
+- type: randomHumanoidSettings
+  id: VisitorCaptainFake
+  parent: VisitorHead
+  components:
+    - type: GhostRole
+      name: job-name-cuptain
+      description: job-description-cuptain
+    - type: Loadout
+      prototypes: CaptainFake
+      roleLoadout: [ RoleSurvivalStandard ]
