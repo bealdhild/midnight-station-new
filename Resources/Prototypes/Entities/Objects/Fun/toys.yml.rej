@@ -1,0 +1,40 @@
+diff a/Resources/Prototypes/Entities/Objects/Fun/toys.yml b/Resources/Prototypes/Entities/Objects/Fun/toys.yml	(rejected hunks)
+@@ -347,6 +365,9 @@
+     - HEAD
+   - type: Speech
+     speechVerb: Reptilian # for pais (In the secret stash)
++  - type: Tag
++    tags:
++      - PlushieLizard
+ 
+ - type: entity
+   parent: PlushieLizard
+@@ -566,6 +620,9 @@
+   - type: EmitSoundOnActivate
+     sound:
+       path: /Audio/Items/Toys/rawr.ogg
++  - type: EmitSoundOnCollide
++    sound:
++      path: /Audio/Items/Toys/rawr.ogg
+   - type: MeleeWeapon
+     wideAnimationRotation: 180
+     soundHit:
+@@ -923,6 +1037,9 @@
+     sound:
+       path: /Audio/Voice/Moth/moth_squeak.ogg
+   - type: EmitSoundOnTrigger
++    sound:
++      path: /Audio/Voice/Moth/moth_chitter.ogg
++  - type: EmitSoundOnCollide
+     sound:
+       path: /Audio/Voice/Moth/moth_scream.ogg
+   - type: MeleeWeapon
+@@ -1311,7 +1444,7 @@
+         volume: -10
+ 
+ - type: entity
+-  parent: BaseItem
++  parent: [ BaseItem, BaseMagicalContraband ]
+   id: PonderingOrb
+   name: pondering orb
+   description: Ponderous, man... Really ponderous.

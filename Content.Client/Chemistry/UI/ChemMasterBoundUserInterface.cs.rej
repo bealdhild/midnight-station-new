@@ -1,0 +1,8 @@
+diff a/Content.Client/Chemistry/UI/ChemMasterBoundUserInterface.cs b/Content.Client/Chemistry/UI/ChemMasterBoundUserInterface.cs	(rejected hunks)
+@@ -70,4 +68,4 @@ protected override void UpdateState(BoundUserInterfaceState state)
+             _window?.UpdateState(castState); // Update window state
+         }
+     }
+-}
++}
+\ No newline at end of file
