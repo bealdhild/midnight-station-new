@@ -242,8 +242,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesCaptainFake
-  name: captain gloves
-  description: Regal blue gloves, with a foil gold trim. They feel cheap.
+  name: cuptain gloves
+  description: Regal blue gloves, with a foil gold trim. They look like repurposed budget insuls.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/captain.rsi
