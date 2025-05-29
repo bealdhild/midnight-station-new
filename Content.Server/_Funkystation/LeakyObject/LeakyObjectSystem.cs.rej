@@ -1,9 +1,0 @@
-diff a/Content.Server/_Funkystation/LeakyObject/LeakyObjectSystem.cs b/Content.Server/_Funkystation/LeakyObject/LeakyObjectSystem.cs	(rejected hunks)
-@@ -76,7 +76,6 @@ public override void Update(float frameTime)
- 
-     void ObjectHit(EntityUid uid, LeakyObjectComponent component, ref StartCollideEvent args)
-     {
--
-         if (!args.OtherFixture.Hard ||
-             !args.OurFixture.Hard ||
-             !EntityManager.TryGetComponent<PhysicsComponent>(uid, out var physics) ||
