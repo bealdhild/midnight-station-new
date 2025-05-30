@@ -1,9 +1,0 @@
-diff a/Content.Client/Chemistry/UI/ChemMasterWindow.xaml.cs b/Content.Client/Chemistry/UI/ChemMasterWindow.xaml.cs	(rejected hunks)
-@@ -13,7 +13,6 @@
- using System.Numerics;
- using Content.Shared.FixedPoint;
- using Robust.Client.Graphics;
--using Serilog;
- using static Robust.Client.UserInterface.Controls.BoxContainer;
- 
- namespace Content.Client.Chemistry.UI
