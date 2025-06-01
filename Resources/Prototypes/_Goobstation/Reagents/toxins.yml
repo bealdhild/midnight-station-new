@@ -1,12 +1,4 @@
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
-# SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: reagent
   id: Triclor
@@ -24,10 +16,6 @@
           types:
             Blunt: 4
       - !type:HealthChange
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 4
@@ -74,24 +62,12 @@
           types:
             Poison: 0.75 # 37.5 per 5u but pretty slow
             Asphyxiation: 0.25
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:Paralyze
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         probability: 0.05
         paralyzeTime: 2
       - !type:Emote
         emote: Gasp
         probability: 0.1
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: Anacea
@@ -125,10 +101,6 @@
         damage:
           types:
             Poison: 0.2 # this works out to 20 per 5u
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
 
 - type: reagent
   id: Pendetide
@@ -153,9 +125,6 @@
           damage:
             types:
               Radiation: 2 # kinda arbitrary, it'll trigger after some rads
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -285,10 +254,6 @@
     Poison:
       effects:
       - !type:TakeStaminaDamage
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         amount: 13 # 13 parity
         immediate: false
 
@@ -308,19 +273,12 @@
         conditions:
         - !type:ReagentThreshold
           min: 10
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         probability: 0.15
       - !type:HealthChange
         damage:
           types:
             Poison: 2
             Asphyxiation: 0.25
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
       - !type:GenericStatusEffect
         key: SeeingRainbows
         component: SeeingRainbows
@@ -328,9 +286,5 @@
         time: 20
         refresh: false
       - !type:Paralyze
-        conditions:
-        - !type:OrganType
-          type: Yowie
-          shouldHave: false
         probability: 0.05
         paralyzeTime: 2

@@ -1,0 +1,28 @@
+#
+
+- type: job # goob edit
+  id: Cuptain
+  name: job-name-cuptain
+  description: job-description-cuptain
+  playTimeTracker: JobCuptain
+  startingGear: CaptainFakeGear
+  icon: "JobIconCaptain"
+  supervisors: job-supervisors-everyone
+  goobcoins: 2 #Goob content
+  access:
+  - Maintenance
+
+
+- type: startingGear
+  id: CaptainFakeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptainFake
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesCheapSunglasses
+    gloves: ClothingHandsGlovesCaptainFake
+    head: ClothingHeadHatCaptainFake
+    id: CaptainPDAFake
+    back: ClothingBackpackCaptainFake
+    belt: ClothingBeltSheathFake
+    ears: ClothingHeadsetCommandFake
+    pocket1: PlushieCuptain

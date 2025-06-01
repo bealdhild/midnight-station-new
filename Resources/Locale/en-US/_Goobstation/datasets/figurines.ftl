@@ -7,6 +7,6 @@ figurines-devil-6 = CHAPLAIN!! I'M CREW!! I'M CREW!!
 figurines-devil-7 = Hey! Where are you going with my codex? Give that back!
 figurines-devil-8 = What? No, "Strength" will make you stronger, just trust me!
 figurines-devil-9 = I said I wanted your "Soul", not "Sole". Take the shoes back!
-figurines-devil-10 = No bitches? I can help with that.
+figurines-devil-10 = I Really, Really wish I could shoot this gun.
 figurines-devil-11 = True name? You don't need to worry about that.
 figurines-devil-12 = Have you ever thought about getting throngled?

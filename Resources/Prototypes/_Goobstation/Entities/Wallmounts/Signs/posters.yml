@@ -1,9 +1,4 @@
-# SPDX-FileCopyrightText: 2024 LevitatingTree <114672939+LevitatingTree@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 LevitatingTree <None>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 BeeRobynn <166929042+BeeRobynn@users.noreply.github.com>
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
 # Posters
 
 - type: entity
@@ -126,16 +121,6 @@
     sprite: _Goobstation/Structures/posters.rsi
     state: goob_poster12_legit
 
-- type: entity
-  parent: PosterBase
-  id: PosterLegitGoobDurkPlush
-  name: "Durk Plushie Advertisement"
-  description: "A poster depicting some sort of plush character being delivered soon to a station near you"
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Structures/posters.rsi
-    state: goob_poster13_legit
-    
 - type: entity
   parent: PosterBase
   id: PosterLegitGoobWelderBomb

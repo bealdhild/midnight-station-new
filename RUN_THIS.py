@@ -1,11 +1,4 @@
-# SPDX-FileCopyrightText: 2017 PJB3005 <pieterjan.briers@gmail.com>
-# SPDX-FileCopyrightText: 2017 Pieter-Jan Briers <pieterjan.briers@gmail.com>
-# SPDX-FileCopyrightText: 2021 Paul Ritter <ritter.paul1@googlemail.com>
-# SPDX-FileCopyrightText: 2021 Swept <sweptwastaken@protonmail.com>
-# SPDX-FileCopyrightText: 2024 Nikolai Korolev <CrafterKolyan@mail.ru>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 #
-# SPDX-License-Identifier: MIT
 
 #!/usr/bin/env python3
 

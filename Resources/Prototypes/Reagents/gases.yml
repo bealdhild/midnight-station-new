@@ -1,35 +1,4 @@
-# SPDX-FileCopyrightText: 2022 20kdc <asdd2808@gmail.com>
-# SPDX-FileCopyrightText: 2022 Alex Evgrashin <aevgrashin@yandex.ru>
-# SPDX-FileCopyrightText: 2022 EmoGarbage404 <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Flipp Syder <76629141+vulppine@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 Rane <60792108+Elijahrane@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2023 CrigCrag <137215465+CrigCrag@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Interrobang01 <113810873+Interrobang01@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Kara <lunarautomaton6@gmail.com>
-# SPDX-FileCopyrightText: 2023 Kevin Zheng <kevinz5000@gmail.com>
-# SPDX-FileCopyrightText: 2023 LankLTE <135308300+LankLTE@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 PuceTint <69696513+PuceTint@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2023 qwerltaz <69696513+qwerltaz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 ArchPigeon <bookmaster3@gmail.com>
-# SPDX-FileCopyrightText: 2024 Ashley Woodiss-Field <ash@DESKTOP-H64M4AI.localdomain>
-# SPDX-FileCopyrightText: 2024 Brandon Li <48413902+aspiringLich@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 CM <ash@DESKTOP-H64M4AI.localdomain>
-# SPDX-FileCopyrightText: 2024 ColesMagnum <98577947+AW-FulCode@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Errant <35878406+Errant-4@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2024 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <comedian_vs_clown@hotmail.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Steve <marlumpy@gmail.com>
-# SPDX-FileCopyrightText: 2025 marc-pelletier <113944176+marc-pelletier@users.noreply.github.com>
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: reagent
   id: Oxygen
@@ -47,10 +16,6 @@
         conditions:
         - !type:OrganType
           type: Human
-      - !type:Oxygenate
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
       - !type:Oxygenate
         conditions:
         - !type:OrganType
@@ -109,10 +74,6 @@
     Poison:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         damage:
           types:
             Poison: 3
@@ -122,10 +83,6 @@
     Gas:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -208,9 +165,6 @@
           shouldHave: false
         - !type:OrganType
           type: Vox
-          shouldHave: false
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
           shouldHave: false
         # Don't want people to get toxin damage from the gas they just
         # exhaled, right?
@@ -328,9 +282,6 @@
         sprintSpeedModifier: 0.65
       - !type:GenericStatusEffect
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: NitrousOxide
           min: 1
@@ -346,9 +297,6 @@
         type: Add
       - !type:HealthChange
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: NitrousOxide
           min: 3.5
@@ -373,9 +321,6 @@
     Gas:
       effects:
       - !type:HealthChange
-        conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
         damage:
           groups:
             Brute: -1
@@ -386,9 +331,6 @@
             Radiation: -0.5
       - !type:HealthChange
         conditions:
-        - !type:OrganType # Goobstation - Yowie
-          type: Yowie
-          shouldHave: false
         - !type:ReagentThreshold
           reagent: Frezon
           min: 0.5

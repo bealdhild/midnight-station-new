@@ -142,8 +142,7 @@ public abstract class SharedWieldableSystem : EntitySystem
     private void OnShootAttempt(EntityUid uid, GunRequiresWieldComponent component, ref ShotAttemptedEvent args)
     {
         if (TryComp<WieldableComponent>(uid, out var wieldable) &&
-            !wieldable.Wielded &&
-            !HasComp<NoWieldNeededComponent>(args.User) // Goobstation - Yowies
+            !wieldable.Wielded
             )
         {
             args.Cancel();

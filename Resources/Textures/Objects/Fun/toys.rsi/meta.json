@@ -422,6 +422,28 @@
       "name": "rubber_chicken"
     },
     {
+      "name": "godo"
+    },
+    {
+      "name": "godo-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "godo-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "gocrazy"
+    },
+    {
+      "name": "gocrazy-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "gocrazy-inhand-left",
+      "directions": 4
+    },
+    {
       "name": "plushie_salv"
     },
     {

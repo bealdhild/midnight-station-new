@@ -1,7 +1,7 @@
 motd-1 = Now with 65% more antags!
 motd-2 = Woundmed doesn't suck, you do.
 motd-3 = freak
-motd-4 = Bingle
+motd-4 = Zoinks
 motd-5 = Antag tokens were invented by Big Sec to sell more perma.
 motd-6 = I hate all of you.
 motd-7 = 1984

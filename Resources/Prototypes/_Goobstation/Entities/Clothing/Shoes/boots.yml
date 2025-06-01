@@ -1,18 +1,4 @@
-# SPDX-FileCopyrightText: 2024 BombasterDS <115770678+BombasterDS@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 GMWQ <garethquaile@gmail.com>
-# SPDX-FileCopyrightText: 2025 Gareth Quaile <garethquaile@gmail.com>
-# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
-# SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
-# SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
   parent: ClothingShoesBootsMag
@@ -237,6 +223,28 @@
     sprite: _Goobstation/Clothing/Shoes/Boots/bso_snowjacks.rsi
   - type: Clothing
     sprite: _Goobstation/Clothing/Shoes/Boots/bso_snowjacks.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.6
+  - type: ModifyStandingUpTime
+    multiplier: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+
+
+- type: entity
+  parent: [ClothingShoesMilitaryBase, ClothingShoesBaseWinterBoots, BaseSecurityContraband]
+  id: ClothingShoesWinterCombatBoots
+  name: snowjacks boots
+  description: Nanotrasen-issue Security combat boots for combat scenarios or combat situations. Now in winter edition.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Shoes/Boots/winterbootsjackboot.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Shoes/Boots/winterbootsjackboot.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.6
   - type: ModifyStandingUpTime
