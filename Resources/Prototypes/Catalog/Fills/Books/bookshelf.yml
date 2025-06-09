@@ -25,6 +25,7 @@
       - id: BookSpaceEncyclopedia
       - id: BookSpaceLaw
       - id: BookTheBookOfControl
+      - id: RevolutionaryManifesto
     # Handwritten books
     - !type:GroupSelector
       rolls: !type:RangeNumberSelector
