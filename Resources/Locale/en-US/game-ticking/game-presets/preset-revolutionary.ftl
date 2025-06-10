@@ -19,14 +19,16 @@ roles-antag-rev-head-objective = Your objective is to take over the station by c
 
 head-rev-role-greeting =
     You are a Head Revolutionary.
-    You are tasked with removing all of Command from station via converting, death, exilement or imprisonment.
-    The Syndicate has sponsored you with a flash that converts the crew to your side.
-    Beware, this won't work on those with a mindshield or wearing eye protection.
+    You are tasked with removing all of Command from station via death, exilement or imprisonment.
+    The Syndicate has sponsored you with a manifesto that persuades the crew to your side.
+    Beware, this won't work on Security or Command - their loyalty is unwavering.
     Viva la revolución!
 
 head-rev-briefing =
     Use flashes to convert people to your cause.
-    Get rid of or convert all heads to take over the station.
+    Eliminate all heads of staff, and secure the station.
+    You have an uplink granted by your handlers at Cybersun.
+    Your uplink code is: {$code}
 
 head-rev-break-mindshield = The Mindshield neutralized hypnotic powers, but its functionality has been compromised!
 
@@ -85,3 +87,6 @@ rev-deconverted-text =
 
     You are no longer a revolutionary, so be nice.
 rev-deconverted-confirm = Confirm
+rev-headrev-must-return = The Revolution is leaderless. We must return to the station within a minute!
+rev-headrev-returned = A Head Revolutionary has returned to the station, the Revolution continues!
+rev-headrev-abandoned = You have disgraced the revolution by abandoning your station. The Revolution is over.
