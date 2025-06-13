@@ -23,6 +23,7 @@
   id: HeadRevGear
   storage:
     back:
-    - RevolutionaryManifesto # Einstein Engines - Revolutionary Manifesto
+    - Flash
+    - ClothingEyesGlassesSunglasses
     - EncryptionKeySyndie # Goobstation
     - RevsFastDrawImplanter # Goobstation
