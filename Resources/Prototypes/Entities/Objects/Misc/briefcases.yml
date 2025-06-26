@@ -1,5 +1,3 @@
-#
-
 - type: entity
   parent: BaseStorageItem
   id: BriefcaseBase
@@ -14,6 +12,8 @@
   - type: Tag
     tags:
     - Briefcase
+    - WhitelistChameleon #Midnight
+    - HandStorageItem #Midnight
   - type: MeleeWeapon
     damage:
       types:
