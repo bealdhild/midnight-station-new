@@ -1,0 +1,10 @@
+# Relay all ahelp messages
+discord.ahelp_webhook: "DISCORD_AHELP_WEBHOOK_URL"
+
+# Ping a role when an ahelp goes unanswered (optional)
+discord.on_call_webhook: "DISCORD_ONCALL_WEBHOOK_URL"
+discord.on_call_ping: "ONCALL_ROLE_ID"
+
+# Round end updates
+discord.round_update_webhook: "DISCORD_ROUNDUPD_WEBHOOK_URL"
+discord.round_end_role: "ROUNDEND_ROLE_ID"
