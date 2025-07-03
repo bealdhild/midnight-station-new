@@ -1,4 +1,0 @@
-[discord]
-ahelp_webhook = DISCORD_AHELP_WEBHOOK_URL
-round_update_webhook = DISCORD_ROUNDUPD_WEBHOOK_URL
-round_end_role = ROUNDEND_ROLE_ID
