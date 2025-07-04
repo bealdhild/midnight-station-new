@@ -1735,6 +1735,7 @@ entities:
     - type: Transform
       pos: 5.7824163,3.117793
       parent: 2
+<<<<<<< HEAD
 - proto: PlushieBlackburn
   entities:
   - uid: 223
@@ -1742,6 +1743,8 @@ entities:
     - type: Transform
       pos: 7.4444375,5.6425996
       parent: 2
+=======
+>>>>>>> goob/master
 - proto: PlushieCarp
   entities:
   - uid: 226

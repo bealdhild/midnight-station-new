@@ -110,6 +110,46 @@ namespace Content.Shared.Chemistry
         Discard,
     }
 
+<<<<<<< HEAD
+=======
+    public enum ChemMasterSortingType : byte
+    {
+        None = 0,
+        Alphabetical = 1,
+        Quantity = 2,
+        Latest = 3,
+    }
+
+    [Serializable, NetSerializable]
+    public sealed class ChemMasterSortingTypeCycleMessage : BoundUserInterfaceMessage;
+
+
+    public enum ChemMasterReagentAmount
+    {
+        U1 = 1,
+        U5 = 5,
+        U10 = 10,
+        U15 = 15,
+        U20 = 20,
+        U25 = 25,
+        U30 = 30,
+        U50 = 50,
+        U100 = 100,
+        All,
+    }
+
+    public static class ChemMasterReagentAmountToFixedPoint
+    {
+        public static FixedPoint2 GetFixedPoint(this ChemMasterReagentAmount amount)
+        {
+            if (amount == ChemMasterReagentAmount.All)
+                return FixedPoint2.MaxValue;
+            else
+                return FixedPoint2.New((int)amount);
+        }
+    }
+
+>>>>>>> goob/master
     /// <summary>
     /// Information about the capacity and contents of a container for display in the UI
     /// </summary>

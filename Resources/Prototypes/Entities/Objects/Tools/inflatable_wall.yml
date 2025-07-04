@@ -29,6 +29,7 @@
     - type: Tag
       tags:
         - DroneUsable # Goobstation
+    - type: PhysicalComposition
 # TODO: Add stack sprites + visuals.
 
 - type: entity
@@ -60,6 +61,7 @@
     - type: Tag
       tags:
       - DroneUsable # Goobstation
+    - type: PhysicalComposition
 # TODO: Add stack sprites + visuals.
 
 - type: entity

@@ -12,6 +12,11 @@ using Content.Shared.DoAfter;
 using Content.Shared.Power.EntitySystems;
 using Content.Shared._Shitmed.Autodoc.Components;
 using Content.Shared._Shitmed.Autodoc.Systems;
+<<<<<<< HEAD
+=======
+using Content.Shared.Body.Components;
+using Content.Shared.Chat;
+>>>>>>> goob/master
 
 namespace Content.Server._Shitmed.Autodoc.Systems;
 

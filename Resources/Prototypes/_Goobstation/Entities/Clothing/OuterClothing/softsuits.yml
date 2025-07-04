@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 #Syndicate EVA
 - type: entity
@@ -34,3 +35,5 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
+=======
+>>>>>>> goob/master

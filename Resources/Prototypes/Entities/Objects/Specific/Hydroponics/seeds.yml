@@ -39,6 +39,7 @@
         blacklist:
           tags:
           - Book
+    - type: PhysicalComposition
 
 - type: entity
   parent: SeedBase

@@ -23,6 +23,7 @@
 
   ## Nuclear Operatives
 
+<<<<<<< HEAD
   Nuclear Operatives are known to exist in other sectors with active warfare, but the idea that the station you are currently on could be the target of a nuclear operative attack is nothing more than background paranoia that no sane individual would act on.
 
   The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station is not shielded.
@@ -63,16 +64,32 @@
 
   Knowledge of heretics is actively supressed by the Organization for Religous Exemptions. Security, Command, and Chaplins may be aware that a people seeking ascension exist, but not on the station.
   This metashield prohibits normal players from knowing what runes or reality fractures are. Security and Command may be suspicious of them.
+=======
+  - Nuclear Operatives are rumoured but not proven. Have fun with this rumour.
 
-  Knowledge about the ability of heretics is not shielded.
+  ## Changelings
 
+  - In the eyes of the public, changelings are an exterminated predatory lifeform, they could always come back, but they'd not be on our station, right?
+
+  ## Heretics
+
+  - The chaplain is aware of the existence of heretics, but the chaplain is always spewing nonsense. What do they even mean?
+>>>>>>> goob/master
+
+  ## Cosmic Cult
+
+<<<<<<< HEAD
   The revealing condition for this shield is any of the following:
   - Witnessing a crewmember drawing a rune
   - Witnessing a crewmember harvesting a reality fracture
   - Witnessing a crewmember using their powers
+=======
+  - The chaplain is saying words again! Why do they hire such weird people?
+>>>>>>> goob/master
 
   ## Space Devils
 
+<<<<<<< HEAD
   To most ordinary people, a Space Devil is a fake fairy tale made to scare people from talking to strangers.
   This metashield prohibits players from knowing that a player is a Space Devil from their equipment alone, although they may distrust them as much as they wish.
 
@@ -113,30 +130,48 @@
   - Discovering use of a non-NT implant by anyone
   - Experiencing a situation where absolutely no other explanation is possible
   - Discovering an unlocked uplink
+=======
+  - The chaplain is now...talking about DEVILS? What is this nonsense? Devils are just a myth, right? They can't be real!
+
+  Knowledge about the abilities and consequences of a Devil deal are not shielded.
+
+  ## Zombies
+
+  Zombies are known galaxy-wide, but not as real-life, instead, as fiction.
+  Nuclear Operatives and Syndicate Agents are aware of Romerol and what it can do, but there's no benefit to revealing it to the crew. People likely won't believe you anyway.
+
+  ## Infections(Once the zombie virus is proven)
+
+  Such infections have been known to be extinct. But luckily advanced medicine has been able to cure the infection. The cure is not known to the public, but it is known to Chemists and Chief Medical Officers. The cure is not known to be a cure for the zombie virus, but it is known to be a cure for an infection that causes people to become zombies.
+
+  ## Deathsquad
+
+  Deathsquad is a sci-fi trope that is well known in the galaxy, but not as a real thing. It is a myth, a legend, and a story that people tell each other. The Deathsquad is not real, but some will argue that it is.
+
+  ## Implanted implants
+
+  Implants are not shielded by default, but the fact that they are not Nanotrasen (NT) implants is shielded.
+>>>>>>> goob/master
 
   ## Chameleon Items
 
   Chameleon items are shielded.
-
   Being suspicious of an item being fake or stolen is not shielded, but testing items or calling them chameleon is covered by this shield.
-
-  The revealing condition for this shield is any of the following:
-  - seeing someone else cause any chameleon item to change
-  - finding holographic nanomachine fibers
-  - experiencing a situation where absolutely no other explanation is possible
-  - discovering an unlocked uplink
 
   ## Stealth Items
 
   The fact that an item can be something other than what its visual appearance and examine description indicate is shielded.
-
+  Security may be aware of tampered items, but they are not aware of the specific item that is tamped. This means that security may not act on the fact that an item is tamped, but they may act on the fact that an item is suspicious.  (Example: Non-NT weapons on a persons is suspicious, how did they get it on station?)
   This shield protects stealth items, including protecting them from being tested.
 
+<<<<<<< HEAD
   The revealing condition for this shield is any of the following:
   - Seeing the item behave differently than the expected behavior for the item
   - Seeing the item used for its hidden purpose
   - Experiencing a situation where absolutely no other explanation is possible
   - Discovering an unlocked uplink
+=======
+>>>>>>> goob/master
 
   ## Metafriending and Metagrudging
   This section provides additional information on a concept that is prohibited by multiple metashield items that are never revealed IC. Giving a person or character preferential treatment based on something that your character should not know is considered metafriending. Treating a person or character negatively based on something that your character should not know is considered metagrudging.
@@ -167,4 +202,6 @@
   - A character's typical appearance. Though you should keep in mind that multiple characters can share the same name.
   - The fact that the Syndicate have covert items capable of getting items to them, and that these items are known as uplinks.
   - Wizards are not metashielded as the wizards federation is well rumoured about.
+
+  For revealing conditions check out [textlink="Antag revealing conditions" link="Conditions"]
 </Document>

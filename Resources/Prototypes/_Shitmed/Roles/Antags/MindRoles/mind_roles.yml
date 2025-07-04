@@ -6,7 +6,12 @@
   - type: MindRole
     exclusiveAntag: true
     antagPrototype: LoneAbductorAntag
+<<<<<<< HEAD
     roleType: MinorAntagonist
+=======
+    roleType: SoloAntagonist
+    subtype: role-subtype-abductor
+>>>>>>> goob/master
   - type: Abductor
 
 - type: entity
@@ -17,7 +22,12 @@
   - type: MindRole
     exclusiveAntag: true
     antagPrototype: AbductorAgentAntag
+<<<<<<< HEAD
     roleType: MinorAntagonist
+=======
+    roleType: TeamAntagonist
+    subtype: role-subtype-abductor
+>>>>>>> goob/master
   - type: Abductor
 
 - type: entity
@@ -28,7 +38,12 @@
   - type: MindRole
     exclusiveAntag: true
     antagPrototype: AbductorScientistAntag
+<<<<<<< HEAD
     roleType: MinorAntagonist
+=======
+    roleType: TeamAntagonist
+    subtype: role-subtype-abductor
+>>>>>>> goob/master
   - type: Abductor
 
 - type: entity
@@ -39,4 +54,5 @@
   - type: MindRole
     roleType: FreeAgent
     antagPrototype: AbductorVictimAntag
+    subtype: role-subtype-abductor-victim
   - type: AbductorVictim

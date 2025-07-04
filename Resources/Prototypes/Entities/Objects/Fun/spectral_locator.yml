@@ -5,7 +5,7 @@
   parent: BaseItem
   name: spectral locator
   description: Appears to be a modified anomaly locator. Seems very old.
-  suffix: Unpowered
+  suffix: Always Powered
   components:
   - type: Sprite
     sprite: Objects/Fun/spectrallocator.rsi
@@ -26,9 +26,8 @@
   - type: ProximityBeeper
   - type: ProximityDetector
     range: 12
-    criteria:
-      components:
-      - Spectral # reacts to AI eye, intentional
+    components:
+    - type: Spectral # reacts to AI eye, intentional
   - type: Beeper
     isMuted: true
     minBeepInterval: 0.25
@@ -42,7 +41,7 @@
 - type: entity
   id: SpectralLocator
   parent: [ SpectralLocatorUnpowered, PowerCellSlotSmallItem ]
-  suffix: Powered
+  suffix: ""
   components:
   - type: PowerCellDraw
     drawRate: 1

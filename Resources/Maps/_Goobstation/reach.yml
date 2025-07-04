@@ -1,13 +1,16 @@
+<<<<<<< HEAD
 #
 
+=======
+>>>>>>> goob/master
 meta:
   format: 7
   category: Map
-  engineVersion: 247.2.0
+  engineVersion: 255.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/29/2025 00:38:16
-  entityCount: 2522
+  time: 05/10/2025 18:05:18
+  entityCount: 2525
 maps:
 - 1
 grids:
@@ -1580,7 +1583,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         28:
-        - DoorStatus: DoorBolt
+        - - DoorStatus
+          - DoorBolt
   - uid: 28
     components:
     - type: Transform
@@ -1589,7 +1593,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         27:
-        - DoorStatus: DoorBolt
+        - - DoorStatus
+          - DoorBolt
 - proto: AirlockExternalGlassCargoLocked
   entities:
   - uid: 29
@@ -1607,7 +1612,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         31:
-        - DoorStatus: DoorBolt
+        - - DoorStatus
+          - DoorBolt
   - uid: 31
     components:
     - type: Transform
@@ -1616,7 +1622,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         30:
-        - DoorStatus: DoorBolt
+        - - DoorStatus
+          - DoorBolt
 - proto: AirlockExternalGlassShuttleArrivals
   entities:
   - uid: 32
@@ -2073,8 +2080,11 @@ entities:
   - uid: 95
     components:
     - type: Transform
-      pos: 2.4605155,-3.2763605
+      pos: 6.7229905,-4.344304
       parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: BoxFolderQmClipboard
   entities:
   - uid: 1942
@@ -6023,12 +6033,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 24.5,3.5
       parent: 2
-  - uid: 867
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 21.5,-0.5
-      parent: 2
   - uid: 870
     components:
     - type: Transform
@@ -6522,7 +6526,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         1070:
-        - ArtifactAnalyzerSender: ArtifactAnalyzerReceiver
+        - - ArtifactAnalyzerSender
+          - ArtifactAnalyzerReceiver
 - proto: ComputerAtmosMonitoring
   entities:
   - uid: 1289
@@ -6545,6 +6550,45 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 1.5,7.5
+      parent: 2
+- proto: ComputerCargoOrdersEngineering
+  entities:
+  - uid: 2523
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -18.5,1.5
+      parent: 2
+- proto: ComputerCargoOrdersMedical
+  entities:
+  - uid: 1724
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 2.5,-3.5
+      parent: 2
+- proto: ComputerCargoOrdersScience
+  entities:
+  - uid: 2524
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,10.5
+      parent: 2
+- proto: ComputerCargoOrdersSecurity
+  entities:
+  - uid: 1734
+    components:
+    - type: Transform
+      pos: 14.5,5.5
+      parent: 2
+- proto: ComputerCargoOrdersService
+  entities:
+  - uid: 2525
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -14.5,-0.5
       parent: 2
 - proto: ComputerCargoShuttle
   entities:
@@ -6577,6 +6621,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 19.5,-0.5
+      parent: 2
+- proto: ComputerFundingAllocation
+  entities:
+  - uid: 867
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 21.5,-0.5
       parent: 2
 - proto: ComputerId
   entities:
@@ -6742,8 +6794,11 @@ entities:
   - uid: 2408
     components:
     - type: Transform
-      pos: -18.519308,1.468835
+      pos: -16.749168,-2.207485
       parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: CryogenicSleepUnitSpawnerLateJoin
   entities:
   - uid: 967
@@ -12290,13 +12345,6 @@ entities:
     - type: Transform
       pos: 7.5,2.5
       parent: 2
-- proto: PottedPlant21
-  entities:
-  - uid: 1724
-    components:
-    - type: Transform
-      pos: 2.4826317,-3.6277924
-      parent: 2
 - proto: PottedPlant22
   entities:
   - uid: 1725
@@ -12345,13 +12393,6 @@ entities:
     components:
     - type: Transform
       pos: 10.2875805,-1.5445261
-      parent: 2
-- proto: PottedPlantBioluminscent
-  entities:
-  - uid: 1734
-    components:
-    - type: Transform
-      pos: 14.5,5.5
       parent: 2
 - proto: PowerCellHyper
   entities:
@@ -12984,6 +13025,9 @@ entities:
     - type: Transform
       pos: 10.483304,-6.5229325
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
 - proto: SalvageMagnet
   entities:
   - uid: 1711
@@ -13628,11 +13672,14 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         1850:
-        - Pressed: Toggle
+        - - Pressed
+          - Toggle
         1857:
-        - Pressed: Toggle
+        - - Pressed
+          - Toggle
         1849:
-        - Pressed: Toggle
+        - - Pressed
+          - Toggle
   - uid: 1947
     components:
     - type: Transform
@@ -13642,7 +13689,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         1853:
-        - Pressed: Toggle
+        - - Pressed
+          - Toggle
   - uid: 1948
     components:
     - type: Transform
@@ -13652,9 +13700,11 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         1851:
-        - Pressed: Toggle
+        - - Pressed
+          - Toggle
         1852:
-        - Pressed: Toggle
+        - - Pressed
+          - Toggle
 - proto: SignalSwitchDirectional
   entities:
   - uid: 1802
@@ -13665,7 +13715,8 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         910:
-        - Status: Toggle
+        - - Status
+          - Toggle
 - proto: SignAtmos
   entities:
   - uid: 2296
@@ -14791,9 +14842,12 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         2398:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
+        - - Left
+          - Forward
+        - - Right
+          - Reverse
+        - - Middle
+          - Off
   - uid: 2105
     components:
     - type: Transform
@@ -14802,13 +14856,19 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         956:
-        - Right: Forward
-        - Left: Reverse
-        - Middle: Off
+        - - Right
+          - Forward
+        - - Left
+          - Reverse
+        - - Middle
+          - Off
         957:
-        - Left: Reverse
-        - Right: Forward
-        - Middle: Off
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
   - uid: 2106
     components:
     - type: Transform
@@ -14817,9 +14877,12 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         1823:
-        - Left: Reverse
-        - Right: Forward
-        - Middle: Off
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
   - uid: 2107
     components:
     - type: Transform
@@ -14828,25 +14891,40 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         958:
-        - Middle: Off
-        - Right: Forward
-        - Left: Reverse
+        - - Middle
+          - Off
+        - - Right
+          - Forward
+        - - Left
+          - Reverse
         959:
-        - Left: Reverse
-        - Right: Forward
-        - Middle: Off
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
         960:
-        - Left: Reverse
-        - Right: Forward
-        - Middle: Off
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
         961:
-        - Left: Reverse
-        - Right: Forward
-        - Middle: Off
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
         962:
-        - Left: Reverse
-        - Right: Forward
-        - Middle: Off
+        - - Left
+          - Reverse
+        - - Right
+          - Forward
+        - - Middle
+          - Off
 - proto: VendingMachineBooze
   entities:
   - uid: 2108
@@ -16479,12 +16557,6 @@ entities:
     - type: Transform
       pos: 18.57877,-2.4324293
       parent: 2
-    - type: AccessReader
-      accessLog: []
-      accessKeys: []
-      access:
-      - - HeadOfSecurity
-      denyTags: []
     - type: ActiveListener
       range: 2
 - proto: WeaponEnergyShotgun

@@ -14,6 +14,7 @@
       rarePrototypes:
         - FoamBlade
         - PlushieGhost
+<<<<<<< HEAD
         - PlushieCairo
         - PlushiePash
         - PlushieDelta
@@ -42,6 +43,8 @@
         - PlushieChewsTheShoes
 
 
+=======
+>>>>>>> goob/master
       rareChance: 0.03
       prototypes:
         - PlushieBee
@@ -65,6 +68,11 @@
         - PlushieDiona
         - PlushieArachind
         - PlushieSamantha # Goobstation
+<<<<<<< HEAD
+=======
+        - PlushieJvne # Goobstation
+        - PlushieFern # Goobstation
+>>>>>>> goob/master
         - PlushieAbductor # Goobstation
       chance: 0.5
       offset: 0.2

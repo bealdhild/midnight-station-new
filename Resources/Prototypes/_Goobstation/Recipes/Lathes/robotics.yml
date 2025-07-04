@@ -76,11 +76,6 @@
   id: BorgModuleLollypop
   result: BorgModuleLollypop
 
-- type: latheRecipe
-  parent: BaseGoldBorgModuleRecipe
-  id: BorgModuleAdvancedMining
-  result: BorgModuleAdvancedMining
-
 # AI
 - type: latheRecipe
   id: AiRemoteBrain

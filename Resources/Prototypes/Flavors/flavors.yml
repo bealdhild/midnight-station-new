@@ -601,6 +601,11 @@
   description: flavor-complex-irish-car-bomb
 
 - type: flavor
+  id: alienbrainhemorrhage
+  flavorType: Complex
+  description: flavor-complex-alien-brain-hemorrhage
+
+- type: flavor
   id: vodkaredbool
   flavorType: Complex
   description: flavor-complex-vodka-red-bool
@@ -624,6 +629,11 @@
   id: watermelonwakeup
   flavorType: Complex
   description: flavor-complex-watermelon-wakeup
+
+- type: flavor
+  id: electricshark
+  flavorType: Complex
+  description: flavor-complex-electric-shark
 
 - type: flavor
   id: rubberneck
@@ -751,6 +761,11 @@
   description: flavor-complex-coconut-rum
 
 - type: flavor
+  id: darkandstormy
+  flavorType: Complex
+  description: flavor-complex-dark-and-stormy
+
+- type: flavor
   id: coffeeliquor
   flavorType: Complex
   description: flavor-complex-coffee-liquor
@@ -799,6 +814,11 @@
   id: arnoldpalmer
   flavorType: Complex
   description: flavor-complex-arnold-palmer
+
+- type: flavor
+  id: tortuga
+  flavorType: Complex
+  description: flavor-complex-tortuga
 
 - type: flavor
   id: bluehawaiian
@@ -861,6 +881,11 @@
   description: flavor-complex-iced-beer
 
 - type: flavor
+  id: radler
+  flavorType: Complex
+  description: flavor-complex-radler
+
+- type: flavor
   id: gargleblaster
   flavorType: Complex
   description: flavor-complex-gargle-blaster
@@ -896,6 +921,11 @@
   description: flavor-complex-atomic-cola
 
 - type: flavor
+  id: crushdepth
+  flavorType: Complex
+  description: flavor-complex-crush-depth
+
+- type: flavor
   id: cubalibre
   flavorType: Complex
   description: flavor-complex-cuba-libre
@@ -904,6 +934,31 @@
   id: gintonic
   flavorType: Complex
   description: flavor-complex-gin-tonic
+
+- type: flavor
+  id: jackrose
+  flavorType: Complex
+  description: flavor-complex-jack-rose
+
+- type: flavor
+  id: junglebird
+  flavorType: Complex
+  description: flavor-complex-jungle-bird
+
+- type: flavor
+  id: kalimotxo
+  flavorType: Complex
+  description: flavor-complex-kalimotxo
+
+- type: flavor
+  id: vampiro
+  flavorType: Complex
+  description: flavor-complex-vampiro
+
+- type: flavor
+  id: bronx
+  flavorType: Complex
+  description: flavor-complex-bronx
 
 - type: flavor
   id: screwdriver
@@ -996,6 +1051,11 @@
   description: flavor-complex-driest-martini
 
 - type: flavor
+  id: eggnog
+  flavorType: Complex
+  description: flavor-complex-eggnog
+
+- type: flavor
   id: erikasurprise
   flavorType: Complex
   description: flavor-complex-erika-surprise
@@ -1049,6 +1109,11 @@
   id: mojito
   flavorType: Complex
   description: flavor-complex-mojito
+
+- type: flavor
+  id: monkeybusiness
+  flavorType: Complex
+  description: flavor-complex-monkey-business
 
 - type: flavor
   id: neurotoxin
@@ -1404,3 +1469,9 @@
   id: bacchusblessing
   flavorType: Complex
   description: flavor-complex-bacchus-blessing
+
+- type: flavor
+  id: trashy
+  flavorType: Base
+  description: flavor-base-trashy
+

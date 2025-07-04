@@ -12,7 +12,6 @@ namespace Content.Client.Clothing.Systems;
 public sealed class ChameleonClothingSystem : SharedChameleonClothingSystem
 {
     [Dependency] private readonly IPrototypeManager _proto = default!;
-    [Dependency] private readonly IComponentFactory _factory = default!;
 
     private static readonly SlotFlags[] IgnoredSlots =
     {
@@ -47,14 +46,14 @@ public sealed class ChameleonClothingSystem : SharedChameleonClothingSystem
     {
         base.UpdateSprite(uid, proto);
         if (TryComp(uid, out SpriteComponent? sprite)
-            && proto.TryGetComponent(out SpriteComponent? otherSprite, _factory))
+            && proto.TryGetComponent(out SpriteComponent? otherSprite, Factory))
         {
             sprite.CopyFrom(otherSprite);
         }
 
         // Edgecase for PDAs to include visuals when UI is open
         if (TryComp(uid, out PdaBorderColorComponent? borderColor)
-            && proto.TryGetComponent(out PdaBorderColorComponent? otherBorderColor, _factory))
+            && proto.TryGetComponent(out PdaBorderColorComponent? otherBorderColor, Factory))
         {
             borderColor.BorderColor = otherBorderColor.BorderColor;
             borderColor.AccentHColor = otherBorderColor.AccentHColor;
@@ -103,6 +102,11 @@ public sealed class ChameleonClothingSystem : SharedChameleonClothingSystem
             // check if this is valid clothing or handheld item
             if (!IsValidTarget(proto))
                 continue;
+<<<<<<< HEAD
+=======
+            if (!proto.TryGetComponent(out ClothingComponent? item, Factory))
+                continue;
+>>>>>>> goob/master
 
             // Handle handheld items (SlotFlags.NONE)
             if (proto.TryGetComponent(out ClothingComponent? clothing, _factory))

@@ -72,7 +72,12 @@
   - type: MindRole
     antagPrototype: Blob
     exclusiveAntag: true
+<<<<<<< HEAD
     roleType: MajorAntagonist
+=======
+    roleType: SoloAntagonist
+    subtype: role-subtype-blob
+>>>>>>> goob/master
   - type: BlobRole
 
 - type: factionIcon

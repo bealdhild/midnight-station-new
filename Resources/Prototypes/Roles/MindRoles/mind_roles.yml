@@ -97,7 +97,6 @@
     antagPrototype: GenericTeamAntagonist
 
 # This should be used (or inherited) for team antags that are summoned or converted in large quantities, and are "secondary" to other antags
-# TODO: sort weight
 - type: entity
   parent: MindRoleGhostRoleTeamAntagonist
   id: MindRoleGhostRoleTeamAntagonistFlock
@@ -132,6 +131,7 @@
   - type: MindRole
     antagPrototype: SubvertedSilicon
     roleType: SiliconAntagonist
+    subtype: role-subtype-subverted
   - type: SubvertedSiliconRole
 
 # Dragon
@@ -142,11 +142,14 @@
   components:
   - type: MindRole
     antagPrototype: Dragon
+<<<<<<< HEAD
     roleType: MajorAntagonist
+=======
+    roleType: TeamAntagonist
+    subtype: role-subtype-dragon
+>>>>>>> goob/master
     exclusiveAntag: true
   - type: DragonRole
-  - type: RoleBriefing
-    briefing: dragon-role-briefing
 
 # Ninja
 - type: entity
@@ -156,7 +159,11 @@
   components:
   - type: MindRole
     antagPrototype: SpaceNinja
+<<<<<<< HEAD
     roleType: ModerateAntagonist
+=======
+    subtype: role-subtype-ninja
+>>>>>>> goob/master
     exclusiveAntag: true
   - type: NinjaRole
 
@@ -168,7 +175,11 @@
   components:
   - type: MindRole
     antagPrototype: ParadoxClone
+<<<<<<< HEAD
     roleType: ModerateAntagonist
+=======
+    subtype: role-subtype-paradox-clone
+>>>>>>> goob/master
   - type: ParadoxCloneRole
 
 # Nukies
@@ -178,7 +189,12 @@
   name: Nukeops Operative Role
   components:
   - type: MindRole
+<<<<<<< HEAD
     roleType: MajorAntagonist
+=======
+    roleType: TeamAntagonist
+    subtype: role-subtype-nukie
+>>>>>>> goob/master
     exclusiveAntag: true
     antagPrototype: Nukeops
   - type: NukeopsRole
@@ -208,7 +224,12 @@
   - type: MindRole
     antagPrototype: HeadRev
     exclusiveAntag: true
+<<<<<<< HEAD
     roleType: ModerateAntagonist
+=======
+    roleType: TeamAntagonist
+    subtype: role-subtype-head-revolutionary
+>>>>>>> goob/master
   - type: RevolutionaryRole
 
 - type: entity
@@ -218,6 +239,7 @@
   components:
   - type: MindRole
     antagPrototype: Rev
+    subtype: role-subtype-revolutionary
 
 # Thief
 - type: entity
@@ -228,6 +250,7 @@
   - type: MindRole
     roleType: MinorAntagonist
     antagPrototype: Thief
+    subtype: role-subtype-thief
   - type: ThiefRole
 
 # Traitors
@@ -240,6 +263,7 @@
     roleType: ModerateAntagonist
     antagPrototype: Traitor
     exclusiveAntag: true
+    subtype: role-subtype-traitor
   - type: TraitorRole
 
 - type: entity
@@ -257,6 +281,8 @@
   components:
   - type: MindRole
     roleType: Familiar
+    subtype: role-subtype-traitor-reinforcement
+
 
 # Zombie Squad
 - type: entity
@@ -267,7 +293,12 @@
   - type: MindRole
     antagPrototype: InitialInfected
     exclusiveAntag: true
+<<<<<<< HEAD
     roleType: MajorAntagonist
+=======
+    roleType: TeamAntagonist
+    subtype: role-subtype-initial-infected
+>>>>>>> goob/master
   - type: InitialInfectedRole
 
 - type: entity
@@ -278,6 +309,7 @@
   - type: MindRole
     antagPrototype: Zombie
     exclusiveAntag: true
+<<<<<<< HEAD
     roleType: MajorAntagonist
   - type: ZombieRole
 
@@ -316,3 +348,7 @@
   - type: MindcontrolledRole
 
 # goob edit end
+=======
+    subtype: role-subtype-zombie
+  - type: ZombieRole
+>>>>>>> goob/master

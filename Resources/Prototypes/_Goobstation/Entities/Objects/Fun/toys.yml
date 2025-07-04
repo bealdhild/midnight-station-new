@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+=======
+# SPDX-FileCopyrightText: 2024 BeeRobynn <166929042+BeeRobynn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 CMDR-Piboy314 <92357316+CMDR-Piboy314@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Kira Bridgeton <161087999+Verbalase@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Piras314 <92357316+Piras314@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
+# SPDX-FileCopyrightText: 2024 Plyush <121322002+toasterpm87@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 crasg <109207982+Scruq445@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Aidenkrz <aiden@djkraz.com>
+# SPDX-FileCopyrightText: 2025 Armok <155400926+ARMOKS@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Bandit <queenjess521@gmail.com>
+# SPDX-FileCopyrightText: 2025 Fishbait <Fishbait@git.ml>
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Ilya246 <57039557+Ilya246@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 IrisTheAmped <iristheamped@gmail.com>
+# SPDX-FileCopyrightText: 2025 OnsenCapy <101037138+OnsenCapy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Plyush <121322002+Plyushsune@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Shy Bandit <92641277+rotundfan@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+# SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
+# SPDX-FileCopyrightText: 2025 fishbait <gnesse@gmail.com>
+# SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 grub <unalterableness@gmail.com>
+# SPDX-FileCopyrightText: 2025 plyush <121322002+toasterpm87@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 shityaml <unalterableness@gmail.com>
+>>>>>>> goob/master
 #
 
 - type: entity
@@ -57,6 +86,7 @@
 
 - type: entity
   parent: BasePlushie
+<<<<<<< HEAD
   id: PlushieBlackburn
   name: Blackburn plushie
   description: A "kitsune-like" human hybrid plushie made by Nanotrasen as charity for Blackburnians displaced by the Yukon Insurgency's tyrannical ways.
@@ -116,6 +146,34 @@
     requiresSpecialDigestion: true
     useSound:
       path: /Audio/Effects/explosion4.ogg
+=======
+  id: PlushieDurk
+  name: Durk plushie
+  description: A cute stuffed toy that resembles a certain atmospheric technician. You feel like a great breaking of the universe approaches while holding this
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Fun/toys.rsi
+    state: plushie_durk
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/adminhelp.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/adminhelp.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/adminhelp.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Effects/adminhelp.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Effects/adminhelp.ogg
+  - type: Food
+    requiresSpecialDigestion: false
+    useSound:
+      path: /Audio/Effects/adminhelp.ogg
+>>>>>>> goob/master
 
 - type: entity
   name: Toy Wonderprod
@@ -328,6 +386,7 @@
         - ReagentId: TableSalt
           Quantity: 5
 
+<<<<<<< HEAD
 - type: entity
   parent: PlushieLizard
   id: PlushieCairo
@@ -532,6 +591,42 @@
     - Grub
     ocNames:
     - Muppet
+=======
+## Jvne goes here because she's cooler
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieJvne
+  name: jvne plushie
+  description: It's been a rough day...
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Fun/toys.rsi
+    state: plushie_jvne
+  - type: Item
+    heldPrefix: plushiejvne
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 0
+    soundHit:
+      path: /Audio/_DV/Voice/Vulpkanin/dog_snarl2.ogg
+>>>>>>> goob/master
 
 - type: entity
   parent: PlushieLizard
@@ -540,7 +635,7 @@
   description: You feel as if something else is watching you... just out of sight, in the shadows.
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Fun/selfinsert.rsi
+    sprite: _Goobstation/Objects/Fun/toys.rsi
     state: plushie_fern
   - type: EmitSoundOnUse
     sound:
@@ -557,37 +652,28 @@
 
 - type: entity
   parent: BasePlushie
-  id: PlushieHexadecimal
-  name: strange IPC plushie
-  description: You feel a slight imbalance in the universe you inhabit, as if something maybe a little better off than others... ENERGY LOW.
+  id: PlushieNigel
+  name: handsome plushie
+  description: Smells like greatness, and a distinct smell of adalamin brand perfume?
   components:
   - type: Sprite
-    sprite: _Goobstation/Objects/Fun/selfinsert.rsi
-    state: plushie_hexadecimal
+    sprite: _Goobstation/Objects/Fun/toys.rsi
+    state: plushie_nigel
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/_EinsteinEngines/Voice/IPC/robot-scream.ogg
+      path: /Audio/Effects/adminhelp.ogg
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Effects/Cargo/ping.ogg
+      path: /Audio/Effects/adminhelp.ogg
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/_EinsteinEngines/Voice/IPC/robot-scream.ogg
+      path: /Audio/Effects/adminhelp.ogg
   - type: EmitSoundOnTrigger
     sound:
-      path: /Audio/_EinsteinEngines/Voice/IPC/robot-scream.ogg
-
-- type: entity
-  parent: PlushieMoth
-  id: PlushieFlint
-  name: criminal moth plushie
-  description: Has commited lots of war crimes.
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Objects/Fun/selfinsert.rsi
-    state: plushie_flint
-  - type: EmitSoundOnUse
+      path: /Audio/Effects/adminhelp.ogg
+  - type: EmitSoundOnCollide
     sound:
+<<<<<<< HEAD
       path: /Audio/Voice/Moth/moth_scream.ogg
   - type: EmitSoundOnLand
     sound:
@@ -704,3 +790,12 @@
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/selfinsert.rsi
     state: plushie_tinylane
+=======
+      path: /Audio/Effects/adminhelp.ogg
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 0
+    soundHit:
+      path: /Audio/Effects/adminhelp.ogg
+>>>>>>> goob/master

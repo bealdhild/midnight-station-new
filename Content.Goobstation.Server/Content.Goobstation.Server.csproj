@@ -17,6 +17,7 @@
       <ServerGarbageCollection>true</ServerGarbageCollection>
     </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Concentus" />
     <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />
   </ItemGroup>
     <ItemGroup>

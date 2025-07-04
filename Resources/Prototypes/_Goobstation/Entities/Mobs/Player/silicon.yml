@@ -29,7 +29,6 @@
       # - BorgModuleEsword - Replaced
       - BorgModuleTool
       - BorgModuleFireExtinguisher
-      - BorgModuleGPS
   - type: ItemSlots
     slots:
       cell_slot:

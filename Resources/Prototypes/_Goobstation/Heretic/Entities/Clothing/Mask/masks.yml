@@ -1,7 +1,7 @@
 #
 
 - type: entity
-  parent: [ ClothingMaskBase, BaseMagicContraband ]
+  parent: [ ClothingMaskBase, BaseMagicalContraband ]
   id: ClothingMaskMadHeretic
   name: abyssal mask
   description: A mask created from suffering. When you look into its eyes, it looks back.

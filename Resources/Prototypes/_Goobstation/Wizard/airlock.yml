@@ -85,16 +85,11 @@
 
 # Recipes
 - type: construction
-  name: uranium airlock
   id: AirlockUranium
   graph: AirlockUranium
   startNode: start
   targetNode: airlock
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
-  icon:
-    sprite: _Goobstation/Wizard/Structures/Airlocks/Standard/uranium.rsi
-    state: assembly
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -102,16 +97,11 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: glass uranium airlock
   id: AirlockUraniumGlass
   graph: AirlockUranium
   startNode: start
   targetNode: glassAirlock
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
-  icon:
-    sprite: _Goobstation/Wizard/Structures/Airlocks/Glass/uranium.rsi
-    state: assembly
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -169,7 +159,7 @@
       steps:
       - tag: DoorElectronics
         store: board
-        name: "door electronics circuit board"
+        name: construction-graph-tag-door-electronics-circuit-board
         icon:
           sprite: "Objects/Misc/module.rsi"
           state: "door_electronics"

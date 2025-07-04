@@ -8,6 +8,7 @@
   components:
   - type: Speech
     speechSounds: Baritone
+    speechVerb: Oni
   - type: HumanoidAppearance
     species: Oni
   - type: Sprite
@@ -39,6 +40,8 @@
         - MobLayer
   - type: Stamina
     critThreshold: 115
+  - type: TypingIndicator
+    proto: oni
   - type: Tag
     tags:
     - CanPilot

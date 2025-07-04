@@ -27,6 +27,7 @@
   - type: Tag
     tags:
     - Recyclable
+    - SalvageScrap
 
 - type: entity
   parent: BaseStructure
